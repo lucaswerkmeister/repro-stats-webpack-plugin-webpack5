@@ -1,0 +1,22 @@
+{
+  "name": "repro-stats-webpack-plugin-webpack5",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaswerkmeister/repro-stats-webpack-plugin-webpack5.git"
+  },
+  "author": "Lucas Werkmeister <mail@lucaswerkmeister.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaswerkmeister/repro-stats-webpack-plugin-webpack5/issues"
+  },
+  "homepage": "https://github.com/lucaswerkmeister/repro-stats-webpack-plugin-webpack5#readme",
+  "devDependencies": {
+    "stats-webpack-plugin": "^0.7.0",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0"
+  },
+  "scripts": {
+    "build": "node --trace-deprecation node_modules/.bin/webpack"
+  }
+}
